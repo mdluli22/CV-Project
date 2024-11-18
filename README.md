@@ -15,4 +15,4 @@ Find the HTML file you want to run. If you know the file's name and location, yo
     Double-click the HTML file to open it in your default browser.
 
 I hope these steps are clear.
-https://github.com/mdluli22/CV-Project
+The Project's URL: https://github.com/mdluli22/CV-Project
