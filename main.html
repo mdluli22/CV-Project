@@ -5,39 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akhona Mdluli - CV</title>
     <link rel="icon" type="image/x-icon" href="../Projects/pictures/AK-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <table>
-            <tr>
-                <td><h1>AKHONA AMANDA MDLULI</h1></td>
-            </tr>
-        </table>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="logo-placeholder.png" alt="Logo" class="logo-img">
+                <span>Akhona Amanda Mdluli</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#articles">Articles</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <div class="hero-section">
+            <h1>Full-Stack Developer</h1>
+            <p>Software Engineer</p>
+        </div>
     </header>
-    <nav>
-        <p>19 Kunatha Road</p>
-        <p>Durban, 4359</p>
-        <p>+27 81 495 6122</p>
-        <p>akhonamdluli22@gmail.com</p>
-    </nav>
-    <aside>
-        <h3>Skills</h3>
-        <p>Empathetic, Communication, Time Management, SQL, HTML/CSS, JavaScript, Python, Java, F#, PHP</p>
-        <h3>Education</h3>
-        <p>BSc , Rhodes University </p>
-        <p>Majoring in Computer Science and Information Systems</p>
-        <h3>Employment History</h3>
-        <p>Helpdesk Technician, Rhodes University</p>
-        <p>Lecture Venue Technician, Rhodes University</p>
-        <p>Private Tutoring, Rhodes Campus</p>
-    </aside>
-    <section>
-        <h3>Internship</h3>
-        <p>QuantifyYourFuture Virtual Internship, Cathy Sims</p>
-        <h3>Extra-Curricular Activities</h3>
-        <p>Peer Mentoring, Rhodes University</p>
-        <p>Media Representative, Rhodes Developer's Socety</p>
-        <p>Information System's Class Representative, Information Systems Department</p>
+
+    <section id="about">
+        <div class="contact-info">
+            <p>19 Kunatha Road, Durban, 4359</p>
+            <p>+27 81 495 6122</p>
+            <p>akhonamdluli22@gmail.com</p>
+        </div>
     </section>
+
+    <!-- <section id="main-content"> -->
+        <div class="content-wrapper">
+            <aside id="skills">
+                <h2>Skills</h2>
+                <p>Empathetic, Communication, Time Management, SQL, HTML/CSS, JavaScript, Python, Java, F#, PHP</p>
+            </aside>
+            
+            <section id="education">
+                <h2>Education</h2>
+                <p>BSc, Rhodes University</p>
+                <p>Majoring in Computer Science and Information Systems</p>
+            </section>
+            <section id="emplHistory">
+                <h3>Employment History</h3>
+                <p>Helpdesk Technician, Rhodes University</p>
+                <p>Lecture Venue Technician, Rhodes University</p>
+                <p>Private Tutoring, Rhodes Campus</p>
+            </section>
+        </div>
+    <!-- </section> -->
+
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <div class="reviews">
+            <div class="review-card">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <h4>Jane Doe</h4>
+                <p>Assistant Professor</p>
+            </div>
+            <div class="review-card">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <h4>Jane Doe</h4>
+                <p>Assistant Professor</p>
+            </div>
+            <div class="review-card">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <h4>Jane Doe</h4>
+                <p>Assistant Professor</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; All rights reserved 2025
+    </footer>
 </body>
 </html>
